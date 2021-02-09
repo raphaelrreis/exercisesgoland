@@ -1,4 +1,4 @@
-package exercisesGoLand
+package winter
 
 import "fmt"
 
