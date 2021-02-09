@@ -1,0 +1,5 @@
+package exercisesGoLand
+
+func main() {
+
+}
