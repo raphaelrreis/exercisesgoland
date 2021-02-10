@@ -1,3 +1,8 @@
+/**
+Return the smallest positive integer greater than 0 that does not occur in slice
+- the slice in generated randomly
+*/
+
 package missing_integer
 
 import (
@@ -6,6 +11,10 @@ import (
 	"time"
 )
 
+/**
+Create slice talking the number of elements and the minRange, maxRange) for the randNum Function,
+returns the positive integer greater than 0 that does not occur in slice
+*/
 func createSlice(elements, minRange, maxRange int) int {
 	var s []int
 
@@ -20,11 +29,17 @@ func createSlice(elements, minRange, maxRange int) int {
 	return a
 }
 
+/**
+Create a random number
+*/
 func randNum(min, max int) int {
 	rand.Seed(time.Now().UTC().UnixNano())
 	return rand.Intn(max-min) + min
 }
 
+/**
+Create a map from the slice and returns the positive integer greater than 0
+*/
 func createMap(s []int) int {
 	m := make(map[int]int)
 
