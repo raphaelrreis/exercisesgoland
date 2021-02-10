@@ -1,3 +1,4 @@
+// BinaryGap - Find longest sequece of zero in binary representation of an integer.
 package binarygap
 
 import (
