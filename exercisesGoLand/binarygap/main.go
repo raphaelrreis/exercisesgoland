@@ -1,6 +1,7 @@
 package binarygap
 
 import (
+	"fmt"
 	"strconv"
 	"strings"
 )
@@ -49,5 +50,6 @@ func Soluctio(N int) int {
 }
 
 func main() {
+	fmt.Println(Soluction2(1376796976))
 
 }
